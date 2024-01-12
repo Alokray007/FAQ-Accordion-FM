@@ -34,7 +34,6 @@ Users should be able to:
 ![mobile-1](https://raw.github.com/Alokray007/Interactive-Rating-Component-FM/main/screenshots/mobile-design.png)
 ![desktop](https://raw.github.com/Alokray007/Interactive-Rating-Component-FM/main/screenshots/desktop-design.png)
 ![mobile-thankyou](https://raw.github.com/Alokray007/Interactive-Rating-Component-FM/main/screenshots/mobile-thank-you-state.png)
-![desktop-thankyou](https://raw.github.com/Alokray007/Interactive-Rating-Component-FM/main/screenshots/desktop-thank-you-state.png)
 
 
 ### Links
