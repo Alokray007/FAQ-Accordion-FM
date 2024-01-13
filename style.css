@@ -128,6 +128,12 @@ h1 {
 .question {
   font-weight: var(--fw-bold);
   font-size: 1.1rem;
+
+}
+
+.question:hover {
+  cursor: pointer;
+
 }
 
 .icon:hover {
