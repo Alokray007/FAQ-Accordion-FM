@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![mobile](https://raw.github.com/Alokray007/Interactive-Rating-Component-FM/main/screenshots/mobile-design.png)
-![desktop](https://raw.github.com/Alokray007/Interactive-Rating-Component-FM/main/screenshots/desktop-design.png)
+![mobile](https://raw.github.com/Alokray007/FAQ-Accordion-FM/main/screenshots/mobile-design.png)
+![desktop](https://raw.github.com/Alokray007/FAQ-Accordion-FM/main/screenshots/desktop-design.png)
 
 
 ### Links
