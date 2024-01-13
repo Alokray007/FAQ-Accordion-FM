@@ -11,12 +11,8 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -31,15 +27,14 @@ Users should be able to:
 
 ### Screenshot
 
-![mobile-1](https://raw.github.com/Alokray007/Interactive-Rating-Component-FM/main/screenshots/mobile-design.png)
+![mobile](https://raw.github.com/Alokray007/Interactive-Rating-Component-FM/main/screenshots/mobile-design.png)
 ![desktop](https://raw.github.com/Alokray007/Interactive-Rating-Component-FM/main/screenshots/desktop-design.png)
-![mobile-thankyou](https://raw.github.com/Alokray007/Interactive-Rating-Component-FM/main/screenshots/mobile-thank-you-state.png)
 
 
 ### Links
 
-- Solution URL: [Github](https://github.com/Alokray007/Interactive-Rating-Component-FM)
-- Live Site URL: [Netlify- Live Site](https://iratingcomp.netlify.app/)
+- Solution URL: [Github](https://github.com/Alokray007/FAQ-Accordion-FM)
+- Live Site URL: [Netlify- Live Site](https://faqaccor.netlify.app/)
 
 ## My process
 
@@ -49,6 +44,10 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+
+### what i learned
+
+- I learned to use pre downloaded fonts using @font-face CSS Property.
 
 ## Author
 

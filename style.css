@@ -38,7 +38,7 @@ h2 {
 
 :root {
   --clr-primary: hsl(0, 0%, 100%);
-  --clr-secondary: hsl(217, 12%, 63%);
+  --clr-secondary: hsl(275, 100%, 97%);
   --clr-accent: hsl(292, 16%, 49%);
   --clr-DP: hsl(292, 42%, 14%);
 
@@ -47,8 +47,6 @@ h2 {
   --fw-rgl: 400;
   --fw-med: 600;
   --fw-bold: 700;
-
-  --ff: ;
 }
 
 .attribution {
@@ -67,16 +65,39 @@ body {
   justify-content: center;
   min-height: 100vh;
   background-image: url(./assets/images/background-pattern-mobile.svg);
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-color: var(--clr-secondary);
   font-size: var(--font);
   font-weight: var(--fw-rgl);
+  font-family: Work Sans;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url(./assets/fonts/static/WorkSans-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url(./assets/fonts/static/WorkSans-SemiBold.ttf) format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url(./assets/fonts/static/WorkSans-Bold.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
 }
 
 main {
   padding: 1.5rem;
   background-color: var(--clr-primary);
-  max-width: 320px;
+  max-width: 350px;
   border-radius: 0.6rem;
 }
 
@@ -90,25 +111,29 @@ main {
 
 h1 {
   margin-left: 1rem;
+  font-weight: var(--fw-bold);
 }
 
-.accordion {
-  border-bottom: 0.5px solid var(--clr-secondary);
+.accordion:not(:last-child) {
+  border-bottom: 2px solid var(--clr-secondary);
   padding: 10px 0;
-}
-
-.accordion:nth-child(5) {
-  border-bottom: none;
 }
 
 .group {
   display: flex;
   justify-content: space-between;
+  gap: 1rem;
 }
 
 .question {
-  font-size: var(--fw-bold);
-  font-size: 1.2rem;
+  font-weight: var(--fw-bold);
+  font-size: 1.1rem;
+
+}
+
+.question:hover {
+  cursor: pointer;
+
 }
 
 .icon:hover {
@@ -120,17 +145,17 @@ h1 {
 }
 
 .answer {
-  color: var(--clr-secondary);
+  color: var(--clr-accent);
   padding: 10px 0;
 }
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 560px) {
   body {
     background-image: url("./assets/images/background-pattern-desktop.svg");
   }
 
   main {
-    max-width: 490px;
+    max-width: 540px;
   }
 }
